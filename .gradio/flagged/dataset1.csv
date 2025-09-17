@@ -44,3 +44,21 @@ def main():
         print(""Invalid operation. Please enter a valid operation (+, -, *, /)."")
 ```
 You can run this code by saving it to a file with a `.py` extension and running it in the command line using `python calculator.py`.",2025-09-11 17:24:40.356988
+"Write me a bubbke sort code in three line in python
+","```
+def bubble_sort(arr):
+    for i in range(len(arr)):
+        for j in range(0, len(arr) - 1 - i):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
+```",2025-09-17 11:11:54.775879
+"Write me a bubbke sort code in three line in python
+","```
+def bubble_sort(arr):
+    for i in range(len(arr)):
+        for j in range(0, len(arr) - 1 - i):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
+```",2025-09-17 11:11:59.199155
